@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 import java.util.*;
 
 public class FormCekCuaca extends javax.swing.JFrame {
-    private static final String API_KEY = "GANTI_DENGAN_API_KEY_ANDA"; // 🔑 ganti dengan API key kamu
+    private static final String API_KEY = "26e7a80e65d578dbddcf0a063aeb1321"; // 🔑 ganti dengan API key kamu
     private final File favFile = new File("favorites.txt");
     private final File csvFile = new File("weather_saved.csv");
     private DefaultTableModel model;
